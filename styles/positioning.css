@@ -1,0 +1,82 @@
+body {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+header {
+  margin: 0rem;
+  padding: 0rem;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 20rem;
+}
+
+header img {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thumbs {
+  width: 100px;
+  position: absolute;
+  left: 48rem;
+  top: 18rem;
+  z-index: 1;
+}
+
+article {
+  position: absolute;
+  text-align: left;
+  width: 450px;
+  display: block;
+  top: 21rem;
+  left: 28rem;
+}
+
+.home {
+  width: 100px;
+  position: absolute;
+  left: 48rem;
+  top: 18rem;
+}
+
+nav {
+  /*position: relative;
+  right: 5rem;*/
+}
+
+.card {
+  border: 1px solid #333;
+  margin: 0 auto;
+  position: relative;
+  width: 30rem;
+}
+
+.card-hero {
+  margin: 0;
+  max-width: 100%;
+  height: 10rem;
+}
+
+.card-fave {
+  position: absolute;
+  right: 2rem;
+  top: 7rem;
+}
+
+.card-fave img {
+  border-radius: 50%;
+}
+
+.card-headline {
+  font-family: 'Griffy', cursive;
+}
+
+.card-author {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.75rem;
+}
